@@ -1,0 +1,295 @@
+<html>
+<head>
+<title>Digital Village</title>
+<style>
+<link rel = "preconnect" href="https://fonts.googleapis.com">
+<link rel = "preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+body, html{
+height: 100%;
+}
+
+.hero-image{
+background-image: linear-gradient(rgba(0.5,0,0,0.5), rgba(0.5,0,0,0.5)), url("village_love.jpg");
+height: 100%;
+width: 100%;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+h1, button{
+  font-family:Arial, Helvetica, sans-serif
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
+  letter-spacing: 0.5px;
+}
+button{
+  letter-spacing: 3px;
+  background-color: #fff;
+  color:black;
+  height: 40px;
+
+}
+.navigation {
+  padding: 0;
+  background-image: linear-gradient(#f6f6f6, #f4f8fa);
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navigation li {
+  position: relative;
+}
+
+.navigation a,
+.navigation a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color:#04100a;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+.navigation a i,
+.navigation a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navigation a:hover,
+.navigation .active,
+.navigation .active:focus,
+.navigation li:hover>a {
+  color: #3ae0b9;
+}
+.counts {
+  padding-top: 80px;
+}
+
+.counts .count-box {
+  padding: 30px 30px 25px 30px;
+  width: 40%;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  box-shadow: 0px 2px 35px rgba(6, 6, 6, 0.06);
+  border-radius: 4px;
+  left: 30%;
+}
+/*.counts .count-box span {
+  /*font-size: 36px;
+  display: block;
+  /*font-weight: 700;
+  color: #111111;
+}*/
+
+.counts .count-box h5 {
+  padding: 0;
+  margin: 2px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+.bot{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+.bot1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bot2{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+  <nav id="navbar" class="navigation">
+  
+    <ul>
+      <li><a class = "nav-link scrollto active" href="#home">HOME</a></li>
+      <li><a class="nav-link scrollto" href="#about">ABOUT</a></li>
+      <li><a class="nav-link scrollto" href="#counts">STATS</a></li>
+      <li><a href="media.html">MEDIA</a></li>
+      <li><a href="contact.html">CONTACT US</a></li>
+    </ul>
+  </nav>
+<div class="hero-image">
+  <div class="hero-text">
+    
+    <h1>DIGITAL VILLAGE</h1>
+    <p>Welcome to the Thimmapur Digital Village Services!</p>
+    <div class="container">
+   <button> <a href="index.html">Get Started</a></button>
+    </div>
+  </div>
+<img src="Images/DIGITAL VILLAGE (1).jpg" height="100%" width="100%">
+</div>
+<section id="about" class="about section-bg"></section>
+<div class="bot">
+  <h1>ABOUT</h1>
+  <h4>It is the Initiative of us to implement Digital services to the Thimmapur village exclusively.<br> You can avail different services like knowing the Count of Population, Variety of crops grown etc. <br>You can even Pay your Taxes, Bills and know about different sectors like Health, Education etc.<br>Many Services in just one Place!!</h4>
+  <img src="Images/bg.png"height="400px" width="550px"><br><br>
+  <img src="Images/bg1.jpg" height="400px" width="550px">
+</div>
+
+<!--Count section Starts-->
+<section id="counts" class="counts">
+  <div class="container" >
+    <div class="bot1">
+    <h1> <center>STATISTICS</center></h1>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-3 col-md-6">
+        <div class="count-box">
+          <h1>62,753</h1><h5>Population</h5>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+        <div class="count-box">
+          <h1>5</h1><h5>Variety of Crops Grown</h5>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+        <div class="count-box">
+          <h1>2,844.18</h1><h5>Land in acres</h5>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+        <div class="count-box">
+         <h1>20,345</h1> 
+         <h5>Children Population</h5>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  </section>
+<!--
+  <section id="counts" class="counts">
+  <div class="container" data-aos="fade-up">
+    <div class="bot2">
+    <h1> <center>SERVICES</center></h1>
+  </div>
+
+    <div class="row">
+
+      <div class="col-lg-3 col-md-6">
+        <div class="count-box">
+          <h1>Pay your Taxes!</h1>
+          <h4><a href="https://cdma.cgg.gov.in/cdma_arbs/CDMA_PG/PTMenu"><p>Click here</p></a></h4>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+        <div class="count-box">
+          <h1>Pay your Electricity Bill!</h1>
+          <h4><a href="https://www.billdesk.com/pgidsk/pgmerc/tsspdclpgi/TSSPDCLPGIDetails.jsp"><p>Click here</p></a></h4>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+        <div class="count-box">
+          <h1>Pay your Water Bill!</h1>
+          <h4><a href="https://www.hyderabadwater.gov.in/en/index.php/services/customers-services/pay-bill-billdesk"><p>Click here</p></a></h4>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+        <div class="count-box">
+         <h1>Directions for PHC</h1> 
+         <h4><a href="https://www.google.com/maps/dir//9549%2BWW7,+Phc+road,+mandalam,+Thimmapur,+Telangana/@18.3572723,79.0997483,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bccda58e563a811:0xa9ba0006db068ea0!2m2!1d79.1697888!2d18.3572851"><p>Click here</p></a></h4>
+
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+        <div class="count-box">
+         <h1>Directions for Model School</h1> 
+         <h4><a href="https://www.google.com/maps/dir//95CF%2BR2P,+Alugunur+-+Thimmapur+Rd,+Thimmapur,+Telangana+505527/@18.3720823,79.1025264,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bccdb05bdff8c09:0xad91f42911ea62fc!2m2!1d79.1725671!2d18.3720862"><p>Click here</p></a></h4>
+
+        </div>
+      </div>-->
+  <!--Section starts-->
+  <!--<section id="services" class="services section-bg ">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Services</h2>
+        <h4>You can Avail all services like paying Tax, Electricity Bill and Water Bill. <br>All Services at your finger tips.</h4>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+            <i class="bi bi-briefcase"></i>
+            <h4><a href="https://cdma.cgg.gov.in/cdma_arbs/CDMA_PG/PTMenu">Pay Tax</a></h4>
+            <p>Pay Your Property Tax!</p>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4 mt-md-0">
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+            <i class="bi bi-card-checklist"></i>
+            <h4><a href="https://www.billdesk.com/pgidsk/pgmerc/tsspdclpgi/TSSPDCLPGIDetails.jsp">Pay Electricity Bill</a></h4>
+            <p>Pay your Electricity Bill!</p>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4 mt-md-0">
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+            <i class="bi bi-bar-chart"></i>
+            <h4><a href="https://www.hyderabadwater.gov.in/en/index.php/services/customers-services/pay-bill-billdesk">Pay Water Bill</a></h4>
+            <p>Pay your Water Bill!</p>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4 mt-md-0">
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+            <i class="bi bi-binoculars"></i>
+            <h4><a href="https://www.google.com/maps/dir//9549%2BWW7,+Phc+road,+mandalam,+Thimmapur,+Telangana/@18.3572723,79.0997483,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bccda58e563a811:0xa9ba0006db068ea0!2m2!1d79.1697888!2d18.3572851">PHC</a></h4>
+            <p>Directions for Primary Health Center(PHC)</p>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4 mt-md-0">
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="500">
+            <i class="bi bi-brightness-high"></i>
+            <h4><a href="https://www.google.com/maps/dir//95CF%2BR2P,+Alugunur+-+Thimmapur+Rd,+Thimmapur,+Telangana+505527/@18.3720823,79.1025264,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bccdb05bdff8c09:0xad91f42911ea62fc!2m2!1d79.1725671!2d18.3720862">Model School</a></h4>
+            <p>Directions for Model School</p>
+          </div>
+        </div>
+        </div>
+      </div>
+
+    </div>
+  </section>-->
+</body>
+</html>
